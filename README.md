@@ -20,6 +20,6 @@ There are three different loss components, the contrastive loss between text and
 
  
 
-f three different components, I use the article text and a summarization tool, so the image matches the entire content of the article, then I finetune a learnable alignment module over clip using the public n24 news dataset, of 24 news categories. Then I use the long clip model to get all the yfcc100million embeddings in a 50 gb embedding file, and search through that using rough search for each text file, I also predict the corresponding news category. 
+f three different component I finetune a learnable alignment module over clip using the public n24 news dataset, of 24 news categories. Then I use the long clip model to get all the yfcc100million embeddings in a 50 gb embedding file, and search through that using rough search for each text file, I also predict the corresponding news category. 
 
  
