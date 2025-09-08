@@ -35,15 +35,7 @@ class LearnableAlignmentModule(nn.Module):
         self.alpha = nn.Parameter(torch.tensor(0.5))
 
     def forward(self, text_features, labels=None):
-        """
-        text_features: [B, d]
-        labels: [B] (optional, integer category IDs)
 
-        Returns:
-            h_lam [B, d]: category-aware features
-            logits [B, C]: category logits
-            cat_loss (optional)
-        """
         logits = self.category_predictor(text_features)   # [B, C]
         w_x = F.softmax(logits, dim=-1)                   # [B, C]
 
