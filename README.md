@@ -1,6 +1,7 @@
 ***MediaEval2025_NewsImage_Das-RU_GEN***
 
 This project is developed for the MediaEval 2025 NewsImages challenge, focusing on the image generation subtask.
+
 (Reference: [MediaEval 2025 NewsImages Task Link](https://multimediaeval.github.io/editions/2025/tasks/newsimages/))
 
 This method uses the Long-CLIP model to make use of longer pieces of text, including the first sentences of the articles to create a better fit. 
