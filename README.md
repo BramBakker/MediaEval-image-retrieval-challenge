@@ -1,6 +1,6 @@
-***MediaEval2025_NewsImage_Das-RU_GEN***
+**MediaEval2025_NewsImage_Das-RU_RET**
 
-This project is developed for the MediaEval 2025 NewsImages challenge, focusing on the image generation subtask.
+This project is developed for the MediaEval 2025 NewsImages challenge, focusing on the image retrieval subtask.
 
 (Reference: [MediaEval 2025 NewsImages Task Link](https://multimediaeval.github.io/editions/2025/tasks/newsimages/))
 
