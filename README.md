@@ -1,6 +1,4 @@
-Image retrieval techniques 
-
- 
+*Image retrieval techniques*
 
 My method consists of using CLIP for image retrieval. I made two to the normal processing. I used both the headline and article text, and also the model long-clip, which is optimized for longer text. 
 
