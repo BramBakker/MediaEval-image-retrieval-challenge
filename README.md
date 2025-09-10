@@ -1,4 +1,4 @@
-*Image retrieval techniques*
+**Image retrieval challenge**
 
 This method uses the Long-CLIP model to make use of longer pieces of text, including the first sentences of the articles to create a better fit. 
 https://github.com/beichenzbc/Long-CLIP. 
